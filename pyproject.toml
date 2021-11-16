@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vet_app_api"
+version = "0.1.0"
+description = ""
+authors = ["mhendricks96 <mhendricks96@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.9"
+djangorestframework = "^3.12.4"
+django-cors-headers = "^3.10.0"
+gunicorn = "^20.1.0"
+whitenoise = "^5.3.0"
+psycopg2-binary = "^2.9.2"
+django-environ = "^0.8.1"
+djangorestframework-simplejwt = "^5.0.0"
+django-allauth = "^0.46.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
